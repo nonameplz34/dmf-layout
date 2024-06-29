@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Blank</title>
+
+
+    <link href="../estilos/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link href="../estilos/css/sb-admin-2.min.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body id="page-top">
+
+
+
+    <!-- Main Content -->
+    <div id="content">
+
+        <!-- Topbar -->
+        <a href="home.html">
+
+            <button type="button" class="btn btn-secondary btn-sm">voltar</button>
+        </a>
+        <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+                <div class="copyright text-center my-auto">
+                    <section class="page-section" id="services">
+                        <div class="container">
+                            <div class="text-center">
+    
+    
+                                </h3>
+                            </div>
+                            <div class="row text-center">
+                                <div class="col-md-4">
+                                    <span class="fa-stack fa-2x">
+                                        <a href="../AREAS/50.html"></a>
+                                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+    
+                                        <a href="../AREAS/50.html">
+    
+                                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                                        </a>
+                                    </span>
+                                    <h4 class="my-3">50</h4>
+                                    <h3 class="text-muted"> necesidades e outros
+                                    </h3>
+                                </div>
+                                <div class="col-md-4">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                        <a href="../AREAS/30.html">
+    
+                                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                                        </a>
+                                    </span>
+                                    <h4 class="my-3">30</h4>
+                                    <h3 class="text-muted">metas e conquistas
+                                    </h3>
+                                </div>
+                                <div class="col-md-4">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                        <a href="../AREAS/20.html">
+    
+                                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                                        </a>
+                                    </span>
+                                    <h4 class="my-3">20</h4>
+                                    <h3 class="text-muted">investimentos e aprendizagem
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </footer>
+
+       
+        
+
+
+    <!-- CONTEUDO PRINCIPAL  ########################### -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <h1 class="h3 mb-2 text-gray-800">Suas Estatística</h1>
+        <p class="mb-4">aqui você acopmpanha em detalhes como suas finaças estam se desenvolvendo <a
+                target="_blank" href="https://www.chartjs.org/docs/latest/">
+                </a>.</p>
+
+        <!-- Content Row -->
+        <div class="row">
+
+            <div class="col-xl-8 col-lg-7">
+
+                <!-- Area Chart -->
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Area Chart</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-area">
+                            <canvas id="myAreaChart"></canvas>
+                        </div>
+                        <hr>
+                        
+                        
+                    </div>
+                </div>
+
+                <!-- Bar Chart -->
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Bar Chart</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-bar">
+                            <canvas id="myBarChart"></canvas>
+                        </div>
+                        <hr>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Donut Chart -->
+            <div class="col-xl-4 col-lg-5">
+                <div class="card shadow mb-4">
+                    <!-- Card Header - Dropdown -->
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Donut Chart</h6>
+                    </div>
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <div class="chart-pie pt-4">
+                            <canvas id="myPieChart"></canvas>
+                        </div>
+                        <hr>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FIM CONTEUDO PRINCIPAL  ########################### -->
+    
+
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="../estilos/vendor/jquery/jquery.min.js"></script>
+    <script src="../estilos/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="../estilos/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="../estilos/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="../estilos/vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="../estilos/js/demo/chart-area-demo.js"></script>
+    <script src="../estilos/js/demo/chart-pie-demo.js"></script>
+    <script src="../estilos/js/demo/chart-bar-demo.js"></script>
+    <script src="../estilos/boostrapjs/bootstrap.min.js"></script>
+
+</body>
+
+</html>
